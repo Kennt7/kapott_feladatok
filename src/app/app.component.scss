@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+}
+
+
+$domesticCatSectionColor: seagreen;
+$wildcatSectionColor:orange;
+$bobcatSectionColor:steelblue;
+$lionSectionColor: #a339eb;
+$leopardSectionColor: green;
+$pantherSectionColor: yellow;
+$gepardSectionColor : red;
+$pumaSectionColor : orange;
+$pantherSectionColor: purple;
+$gepardSectionColor: black;
+$pumaSectionColor: lightblue;
+
+
+
+nav {
+    width:100%;
+    height: auto;
+    color:rgb(4, 20, 9);
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    li {
+      display: inline-block;
+    }
+    a {
+      display: block;
+      padding: 6px 12px;
+      text-decoration: none;
+    }
+  }
+body{
+    background-color:rgb(253, 253, 253);
+    text-align:justify;
+    width:100%;
+    height:100%;
+
+
+}
+
+li{
+    float:left;
+    margin-right: 10px;
+    list-style-type:none;
+    color:white;
+    background-color: rgb(248, 9, 9);
+}
+
+section{
+background-color: salmon;
+text-align:justify;
+font-size:14px;
+padding: 8px;
+}
+#section_domesticCat{
+    background-color: $domesticCatSectionColor;
+}
+#macskak_vadmacska{
+background-color: $wildcatSectionColor;
+}
+#macskak_hiuz{
+    background-color: steelblue;
+}
+#macskak_oroszlan{
+    background-color:gold;
+}
+#macskak_leopard{
+    background-color: rgb(12, 131, 52) ;
+}
+#macskak_parduc{
+    background-color: rgb(139, 8, 172);
+}
+#macskak_gepard{
+    background-color: rgb(248, 9, 9);
+}
+
+#macskak_puma{
+    background-color:rgb(250, 149, 17) ;
+}
+
+
+#mainaddress{
+  color:gold;
+}
+#mainaddress2{
+    color:white;
+  }
+
+
+h1{
+    text-align: center;
+    background-color:brown;
+    color: "gold";
+}
+
+img{
+    border-radius:25px;
+}
+
+img{
+    height:300px;
+    width:350px;
+    display:inline-block;
+    margin: 5px;
+    border: 3px solid brown;
+}
+
+#bobcat3{
+   
+}
