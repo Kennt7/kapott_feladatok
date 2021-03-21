@@ -16,10 +16,11 @@ $gepardSectionColor: black;
 $pumaSectionColor: lightblue;
 
 
-$componentMenuColor:rgb(250, 102, 225);
+$componentMenuColor:rgb(19, 209, 243);
 
 
 nav {
+    padding-top: 5px;
     width:100%;
     height: auto;
     color:rgb(19, 90, 42);
@@ -38,10 +39,12 @@ nav {
       text-decoration: none;
     }
   }
+
+
 body{
     display:block;
   
-    background-color:rgb(253, 253, 253);
+    background-color:rgb(247, 100, 16);
     width:100%;
     height:100%;
     text-justify:inter-word;
@@ -57,9 +60,7 @@ a:hover {
    
    
 }
-.wildCat01{
-  float:left;
-}
+
 #domesticCat01{
     float:left;
 }
@@ -68,6 +69,75 @@ a:hover {
 }
 #domesticCat03
 {
+    float:left;
+}
+
+#wildCat01{
+float:left;
+}
+#wildCat02{
+    float:right;
+}
+#wildCat03{
+    float:left;
+}
+
+#bobCat01{
+    float:right;
+}
+
+#bobCat02{
+    float:left;
+}
+
+#bobCat03{
+    float:right;
+}
+#lion01{
+    float:left;
+}
+#lion02{
+    float:right;
+}
+#lion03{
+    float:left;
+}
+#leopard01{
+    float:left;
+}
+#leopard02{
+    float:right;
+}
+#leopard03{
+    float:left;
+}
+
+#panther01{
+    float:left;
+}
+#panther02{
+    float:right;
+}
+#panther03{
+    float:left;
+}
+
+#gepard01{
+    float:right;
+}
+#gepard02{
+    float:left;
+}
+#gepard03{
+    float:right;
+}
+#puma01{
+    float:left;
+}
+#puma02{
+    float:right;
+}
+#puma03{
     float:left;
 }
 P{
@@ -87,13 +157,13 @@ text-align:justify;
 font-size:14px;
 padding: 8px;
 }
-#section_domesticCat{
+#sectionDomesticCat{
     background-color: $domesticCatSectionColor;
 }
-#macskak_vadmacska{
+#sectionWildcat{
 background-color: $wildcatSectionColor;
 }
-#macskak_hiuz{
+#sectionBobcat{
     background-color: steelblue;
 }
 #macskak_oroszlan{
@@ -128,16 +198,19 @@ h1{
     color: "gold";
 }
 
-img{
-    border-radius:25px;
-}
+
 
 img{
-    height:300px;
+    border-radius:25px;
+    height:auto;
     width:350px;
     display:inline-block;
     margin: 5px;
     border: 3px solid brown;
+    overflow:hiden;
+    transition:height 0.66 ease-out;
+    
+
 }
 
 #bobcat3{
