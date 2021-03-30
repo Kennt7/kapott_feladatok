@@ -11,6 +11,7 @@ import { LeopardComponent } from './leopard/leopard.component';
 import { PantherComponent } from './panther/panther.component';
 import { GepardComponent } from './gepard/gepard.component';
 import { PumaComponent } from './puma/puma.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { PumaComponent } from './puma/puma.component';
     LeopardComponent,
     PantherComponent,
     GepardComponent,
-    PumaComponent
+    PumaComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,

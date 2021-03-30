@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-lion',
   templateUrl: './lion.component.html',
-  styleUrls: ['./lion.component.scss']
+  styleUrls: ['../app.component.scss']
 })
 export class LionComponent implements OnInit {
 

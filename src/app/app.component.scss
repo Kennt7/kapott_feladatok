@@ -1,218 +1,229 @@
-*{
-    box-sizing: border-box;
-}
-
-
-$domesticCatSectionColor: seagreen;
-$wildcatSectionColor:orange;
-$bobcatSectionColor:steelblue;
-$lionSectionColor: #a339eb;
-$leopardSectionColor: green;
-$pantherSectionColor: yellow;
-$gepardSectionColor : red;
-$pumaSectionColor : orange;
-$pantherSectionColor: purple;
-$gepardSectionColor: black;
-$pumaSectionColor: lightblue;
-
-
-$componentMenuColor:rgb(19, 209, 243);
-
-
-nav {
-    padding-top: 5px;
-    width:100%;
-    height: auto;
-    color:rgb(19, 90, 42);
-
-    ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
+    * {
+        box-sizing: border-box;
     }
-    li {
-      display: inline-block;
-    }
-    a {
-      display: block;
-      padding: 6px 12px;
-      text-decoration: none;
-    }
-  }
-
-
-body{
-    display:block;
-  
-    background-color:rgb(247, 100, 16);
-    width:100%;
-    height:100%;
-    text-justify:inter-word;
-}
-
-section{
-    display:inline-block;
-}
-a:hover {
-    background-color:$componentMenuColor ;
-        }
-.domesticCat{
-   
-   
-}
-
-#domesticCat01{
-    float:left;
-}
-#domesticCat02{
-    float:right;
-}
-#domesticCat03
-{
-    float:left;
-}
-
-#wildCat01{
-float:left;
-}
-#wildCat02{
-    float:right;
-}
-#wildCat03{
-    float:left;
-}
-
-#bobCat01{
-    float:right;
-}
-
-#bobCat02{
-    float:left;
-}
-
-#bobCat03{
-    float:right;
-}
-#lion01{
-    float:left;
-}
-#lion02{
-    float:right;
-}
-#lion03{
-    float:left;
-}
-#leopard01{
-    float:left;
-}
-#leopard02{
-    float:right;
-}
-#leopard03{
-    float:left;
-}
-
-#panther01{
-    float:left;
-}
-#panther02{
-    float:right;
-}
-#panther03{
-    float:left;
-}
-
-#gepard01{
-    float:right;
-}
-#gepard02{
-    float:left;
-}
-#gepard03{
-    float:right;
-}
-#puma01{
-    float:left;
-}
-#puma02{
-    float:right;
-}
-#puma03{
-    float:left;
-}
-P{
-       text-align:justify;
-}
-li{
-    float:left;
-    margin-right: 10px;
-    list-style-type:none;
-    color:white;
-    background-color: rgb(248, 9, 9);
-}
-
-section{
-background-color: salmon;
-text-align:justify;
-font-size:14px;
-padding: 8px;
-}
-#sectionDomesticCat{
-    background-color: $domesticCatSectionColor;
-}
-#sectionWildcat{
-background-color: $wildcatSectionColor;
-}
-#sectionBobcat{
-    background-color: steelblue;
-}
-#macskak_oroszlan{
-    background-color:gold;
-}
-#macskak_leopard{
-    background-color: rgb(12, 131, 52) ;
-}
-#macskak_parduc{
-    background-color: rgb(139, 8, 172);
-}
-#macskak_gepard{
-    background-color: rgb(248, 9, 9);
-}
-
-#macskak_puma{
-    background-color:rgb(250, 149, 17) ;
-}
-
-
-#mainaddress{
-  color:gold;
-}
-#mainaddress2{
-    color:white;
-  }
-
-
-h1{
-    text-align: center;
-    background-color:brown;
-    color: "gold";
-}
-
-
-
-img{
-    border-radius:25px;
-    height:auto;
-    width:350px;
-    display:inline-block;
-    margin: 5px;
-    border: 3px solid brown;
-    overflow:hiden;
-    transition:height 0.66 ease-out;
     
-
-}
-
-#bobcat3{
-   color:red;
-}
+    $domesticCatSectionColor: seagreen;
+    $wildcatSectionColor:orange;
+    $bobcatSectionColor:steelblue;
+    $lionSectionColor: #a339eb;
+    $leopardSectionColor: green;
+    $pantherSectionColor: yellow;
+    $gepardSectionColor: red;
+    $pumaSectionColor: orange;
+    $pantherSectionColor: purple;
+    $gepardSectionColor: black;
+    $pumaSectionColor: lightblue;
+    $componentMenuColor:rgb(107, 18, 18);
+    $navbuttoncolor:rgb(46, 0, 252);
+    $navFont :Times New Roman,
+    serif;
+    nav {
+        padding-top: 2px;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        ul {
+            text-decoration: none;
+        }
+        li {
+            list-style-type: none;
+            margin: 0;
+            max-width: 120px;
+            padding: 5px;
+            font-size: 14px;
+            font-weight: bold;
+            float: left;
+            margin: 10px;
+            color: $navbuttoncolor;
+            background-color: rgb(255, 251, 0);
+            border: 1px solid black;
+        }
+        li:hover {
+            background-color: $navbuttoncolor;
+            color: white;
+        }
+        a {
+            text-decoration: none;
+        }
+    }
+    
+    body {
+        background-color: rgb(0, 155, 46);
+        width: 100%;
+        height: 100%;
+    }
+    
+    main {
+        display: none;
+    }
+    
+    h2 {
+        text-decoration: underline;
+    }
+    
+    section {
+        display: inline-block;
+    }
+    
+    #domesticCat01 {
+        float: left;
+    }
+    
+    #domesticCat02 {
+        float: right;
+    }
+    
+    #domesticCat03 {
+        float: left;
+    }
+    
+    #wildCat01 {
+        float: left;
+    }
+    
+    #wildCat02 {
+        float: right;
+    }
+    
+    #wildCat03 {
+        float: left;
+    }
+    
+    #bobCat01 {
+        float: right;
+    }
+    
+    #bobCat02 {
+        float: left;
+    }
+    
+    #bobCat03 {
+        float: right;
+    }
+    
+    #lion01 {
+        float: left;
+    }
+    
+    #lion02 {
+        float: right;
+    }
+    
+    #lion03 {
+        float: left;
+    }
+    
+    #leopard01 {
+        float: left;
+    }
+    
+    #leopard02 {
+        float: right;
+    }
+    
+    #leopard03 {
+        float: left;
+    }
+    
+    #panther01 {
+        float: left;
+    }
+    
+    #panther02 {
+        float: right;
+    }
+    
+    #panther03 {
+        float: left;
+    }
+    
+    #gepard01 {
+        float: right;
+    }
+    
+    #gepard02 {
+        float: left;
+    }
+    
+    #gepard03 {
+        float: right;
+    }
+    
+    #puma01 {
+        float: left;
+    }
+    
+    #puma02 {
+        float: right;
+    }
+    
+    #puma03 {
+        float: left;
+    }
+    
+    P {
+        text-align: justify;
+    }
+    
+    #sectionDomesticCat {
+        background-color: $domesticCatSectionColor;
+    }
+    
+    #sectionWildcat {
+        background-color: $wildcatSectionColor;
+    }
+    
+    #sectionBobcat {
+        background-color: steelblue;
+    }
+    
+    #macskak_oroszlan {
+        background-color: $lionSectionColor;
+    }
+    
+    #macskak_leopard {
+        background-color: rgb(12, 131, 52);
+    }
+    
+    #macskak_parduc {
+        background-color: rgb(139, 8, 172);
+    }
+    
+    #macskak_gepard {
+        background-color: $gepardSectionColor;
+        color: white;
+    }
+    
+    #macskak_puma {
+        background-color: rgb(250, 149, 17);
+    }
+    
+    #mainaddress {
+        color: gold;
+    }
+    
+    #mainaddress2 {
+        color: white;
+    }
+    
+    h1 {
+        text-align: center;
+        background-color: brown;
+        color: "gold";
+    }
+    
+    img {
+        border-radius: 25px;
+        height: auto;
+        width: 350px;
+        display: inline-block;
+        margin: 5px;
+        border: 3px solid brown;
+        overflow: hidden;
+        transition: height 0.66 ease-out;
+    }
+    
+    #bobcat3 {
+        color: red;
+    }

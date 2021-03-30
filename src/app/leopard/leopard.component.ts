@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-leopard',
   templateUrl: './leopard.component.html',
-  styleUrls: ['./leopard.component.scss']
+  styleUrls: ['../app.component.scss']
 })
 export class LeopardComponent implements OnInit {
 

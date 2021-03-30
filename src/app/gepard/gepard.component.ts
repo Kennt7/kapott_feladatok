@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-gepard',
   templateUrl: './gepard.component.html',
-  styleUrls: ['./gepard.component.scss']
+  styleUrls: ['../app.component.scss']
 })
 export class GepardComponent implements OnInit {
 
